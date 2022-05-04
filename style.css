@@ -1,0 +1,41 @@
+.logo-sec {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.ace {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+
+.time-area {
+    display: flex;
+    width: 8em;
+    height: 2.5em;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.t1 {
+    height: 100%;
+    width: 22%;
+    background-color: var(--main-color);
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 550;
+    border-radius: 3px;
+}
+
+.tcolon {
+    font-size: 1.4rem;
+    margin-left: 2%;
+}
