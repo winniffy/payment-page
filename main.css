@@ -2,6 +2,8 @@
 
 :root {
     --main-color: #035fff;
+    --darker: #1e2b57;
+    --grey: #aeafb4;
 }
 
 * {
@@ -55,5 +57,15 @@ body {
     width: 100%;
     border: 1px solid black;
     justify-content: space-between;
+}
+
+.cardno-area {
+    width: 100%;
+    border: 1px solid black;
+    height: 3em;
+    margin: 2em 0 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
