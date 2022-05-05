@@ -10,6 +10,7 @@
 .ace {
     margin-left: 1rem;
     font-size: 1.4rem;
+    color: var(--darker);
 }
 
 .time-area {
@@ -24,7 +25,7 @@
 .t1 {
     height: 100%;
     width: 22%;
-    background-color: var(--main-color);
+    background-color: var(--darker);
     margin-left: 2%;
     display: flex;
     align-items: center;
@@ -38,4 +39,38 @@
 .tcolon {
     font-size: 1.4rem;
     margin-left: 2%;
+}
+
+.cardno-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.cardno {
+    color: var(--darker);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.enter {
+    color: var(--grey);
+    font-size: 0.8rem;
+}
+
+.cardno-right {
+    display: flex;
+    justify-content: space-between;
+    width: 3em;
+}
+
+.fa-pencil {
+    color: var(--main-color);
+    font-size: 0.9rem;
+}
+
+.edit {
+    font-size: 0.9rem;
+    color: var(--main-color);
 }
