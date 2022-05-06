@@ -74,3 +74,37 @@
     font-size: 0.9rem;
     color: var(--main-color);
 }
+
+.numberbox-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.mastercard {
+    width: 40px;
+    margin-left: 1em;
+}
+
+span {
+    color: var(--darker);
+}
+
+.mastercard-no {
+    color: var(--grey);
+    font-size: 1.05rem;
+    margin-left: 1rem;
+}
+
+.numberbox-right {
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.verifycheck {
+    width: 50px;
+    margin-right: .5rem;
+}
