@@ -17,7 +17,6 @@
     display: flex;
     width: 8em;
     height: 2.5em;
-    border: 1px solid black;
     justify-content: center;
     align-items: center;
 }
@@ -33,7 +32,7 @@
     color: #fff;
     font-size: 1.2rem;
     font-weight: 550;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .tcolon {
@@ -139,12 +138,51 @@ span {
     cursor: pointer;
 }
 
-.n09 {
-    width: 4em;
+.expiry-right {
+    display: flex;
+    width: 50%;
     height: 100%;
-    border: 1px solid var(--grey);
+    border-radius: 7px;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.n09 {
+    width: 10.5em;
+    height: 100%;
+    border: 1px solid var(--grey);
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+}
+
+.n09text {
+    color: var(--darker);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.n22text {
+    color: var(--main-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.slash {
+    font-size: 1.5rem;
+}
+
+.n22 {
+    width: 10.5em;
+    height: 100%;
+    border: 2px solid var(--main-color);
+    background-color:#f0f4ff;
+    border-radius: 7px;
+    color: var(--main-color);
+    font-size: 1rem;
+    display: grid;
+    place-items: center;
+}
 
 .pay-now {
     width: 100%;

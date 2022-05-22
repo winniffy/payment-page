@@ -55,13 +55,11 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    border: 1px solid black;
     justify-content: space-between;
 }
 
 .cardno-area {
     width: 100%;
-    border: 1px solid black;
     height: 3em;
     margin: 2em 0 1em 0;
     display: flex;
@@ -86,7 +84,6 @@ body {
     height: 3.8em;
     border-radius: 7px;
     margin-top: 2em;
-    border: 1.5px solid var(--grey);
     display: flex;
     justify-content: space-between;
     align-items: center;
