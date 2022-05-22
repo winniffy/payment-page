@@ -139,6 +139,11 @@ span {
     cursor: pointer;
 }
 
+.n09 {
+    width: 4em;
+    height: 100%;
+    border: 1px solid var(--grey);
+}
 
 
 .pay-now {
