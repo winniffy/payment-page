@@ -184,6 +184,37 @@ span {
     place-items: center;
 }
 
+.password-right {
+    padding: 0 3%;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    border-radius: 7px;
+    border: 1.5px solid var(--grey);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passcircles {
+    display: flex;
+}
+
+.passcircle1 {
+    width: 7px;
+    height: 7px;
+    margin-left: 1rem;
+    border-radius: 50%;
+    background-color: var(--darker);
+}
+
+.passcircle {
+    width: 7px;
+    height: 7px;
+    margin-left: .5rem;
+    border-radius: 50%;
+    background-color: var(--darker);
+}
+
 .pay-now {
     width: 100%;
     height: 100%;
