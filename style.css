@@ -210,7 +210,7 @@ span {
 .passcircle {
     width: 7px;
     height: 7px;
-    margin-left: .5rem;
+    margin-left: .4rem;
     border-radius: 50%;
     background-color: var(--darker);
 }
@@ -226,4 +226,29 @@ span {
     font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
+}
+
+.atmcard-top {
+    margin: 0 auto;
+    height: .4em;
+    width: 4em;
+    background-color: var(--main-color);
+}
+
+.atmcard {
+    margin: 0 auto;
+    height: 18em;
+    width: 13em;
+    background-color: #fff;
+    border-radius: 15px;
+    z-index: 1;
+    position: relative;
+}
+
+.atmcard-bottom {   
+    margin: -12em auto 0;
+    width: 20em;
+    height: 30em;
+    background-color: #dfdfdf;
+    position: relative;
 }

@@ -45,12 +45,6 @@ body {
     padding: 3% 5% 5% 3%;
 }
 
-.right-content {
-    width: 30%;
-    height: 100%;
-    background-color: bisque;
-}
-
 .logoarea {
     display: flex;
     align-items: center;
@@ -94,4 +88,12 @@ body {
     height: 3.8em;
     border-radius: 7px;
     margin-top: 2em;
+}
+
+
+.right-content {
+    width: 30%;
+    height: 100%;
+    background-color: bisque;
+    padding: 3% 0 3%;
 }
