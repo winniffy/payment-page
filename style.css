@@ -243,6 +243,7 @@ span {
     border-radius: 15px;
     z-index: 1;
     position: relative;
+    box-shadow:  2px 3px 5px var(--grey);
 }
 
 .atmcard-bottom {   
